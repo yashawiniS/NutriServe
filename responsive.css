@@ -1,0 +1,275 @@
+/* =================================
+   1. TABLET VIEW (MAX 992px)
+================================= */
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        width: 92%;
+    }
+
+    /* Navigation */
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    /* Hero */
+
+    .hero-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-image img {
+        height: 320px;
+    }
+
+    /* Meal Layout */
+
+    .meal-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-sidebar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .filter-group {
+        margin-top: 0;
+    }
+
+    /* Dashboard */
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .order-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* =================================
+   2. MOBILE VIEW (MAX 600px)
+================================= */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 92%;
+    }
+
+    /* Header */
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    /* Hero Section */
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        height: 240px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    /* Sections */
+
+    .section {
+        padding: 35px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 23px;
+    }
+
+    /* Feature Cards */
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Page Heading */
+
+    .page-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page-heading h1 {
+        font-size: 26px;
+    }
+
+    /* Dashboard Cards */
+
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .stat-card h2 {
+        font-size: 23px;
+    }
+
+    /* Filter Sidebar */
+
+    .filter-sidebar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter-group {
+        width: 100%;
+    }
+
+    /* Meal Cards */
+
+    .meal-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .meal-card img {
+        height: 200px;
+    }
+
+    /* Order Layout */
+
+    .order-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* Surplus Cards */
+
+    .surplus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Forms */
+
+    .auth-card {
+        padding: 24px 18px;
+    }
+
+    .auth-card h1 {
+        font-size: 23px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Buttons */
+
+    .card-footer {
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+
+    .footer {
+        font-size: 11px;
+        line-height: 1.8;
+    }
+
+}
+
+/* =================================
+   3. SMALL MOBILE VIEW (MAX 380px)
+================================= */
+
+@media screen and (max-width: 380px) {
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .hero-text h1 {
+        font-size: 29px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-footer .btn,
+    .card-footer .add-cart-btn {
+        width: 100%;
+    }
+
+}

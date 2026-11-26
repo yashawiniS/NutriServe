@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals - NutriServe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">NutriServe</a>
+
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="meals.html" class="active">Meals</a>
+                <a href="order.html">My Orders</a>
+                <a href="surplus.html">Surplus Food</a>
+                <a href="login.html" class="btn btn-outline">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Meals Section -->
+    <section class="page-section">
+        <div class="container">
+
+            <div class="page-heading">
+                <h1>Explore Our Meals</h1>
+                <p>Fresh, affordable and delicious meals for everyone.</p>
+            </div>
+
+            <div class="meal-layout">
+
+                <!-- Filter Sidebar -->
+                <aside class="filter-sidebar">
+                    <h2>Meal Categories</h2>
+
+                    <ul>
+                        <li><a href="#all">All Meals</a></li>
+                        <li><a href="#rice">Rice</a></li>
+                        <li><a href="#breakfast">Breakfast</a></li>
+                        <li><a href="#main-course">Main Course</a></li>
+                    </ul>
+
+                    <hr>
+
+                    <h3>Why NutriServe?</h3>
+                    <p>Enjoy quality meals while supporting food waste reduction.</p>
+                </aside>
+
+                <!-- Meal Cards -->
+                <div class="meal-grid" id="all">
+
+                    <!-- Vegetable Rice -->
+                    <div class="meal-card" id="rice">
+                        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19"
+                             alt="Vegetable Rice">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Rice</span>
+                            <h3>Vegetable Rice</h3>
+                            <p>Healthy rice prepared with fresh vegetables.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹60</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Idli -->
+                    <div class="meal-card" id="breakfast">
+                        <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
+                             alt="Idli">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Idli</h3>
+                            <p>Soft and fluffy idlis served as a light meal.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹30</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Chapati -->
+                    <div class="meal-card" id="main-course">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641"
+                             alt="Chapati">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Main Course</span>
+                            <h3>Chapati</h3>
+                            <p>Freshly prepared chapatis served with curry.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹40</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Dosa -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
+                             alt="Dosa">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Dosa</h3>
+                            <p>Crispy dosa served with traditional sides.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹45</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Pongal -->
+                    <div class="meal-card">
+                        <img src="https://rajamathangivenpongalvilas.com/assets/items/cat-2.png"
+     alt="Ven Pongal">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Pongal</h3>
+                            <p>Traditional and comforting South Indian pongal.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹50</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 NutriServe. Reducing Food Waste, Serving Communities.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

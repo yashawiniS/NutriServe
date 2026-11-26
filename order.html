@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriServe | Order Summary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container navbar">
+        <a href="index.html" class="logo">Nutri<span>Serve</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="meals.html">Meals</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container page-section">
+
+    <div class="page-heading">
+        <div>
+            <span class="eyebrow">YOUR ORDER</span>
+            <h1>Order Summary</h1>
+            <p>Review your selected meals.</p>
+        </div>
+    </div>
+
+    <section class="order-layout">
+
+        <div class="content-card">
+            <h2>Selected Meals</h2>
+
+            <div class="order-item">
+                <div>
+                    <h3>Vegetable Rice</h3>
+                    <p>Quantity: 2</p>
+                </div>
+                <strong>₹120</strong>
+            </div>
+
+            <div class="order-item">
+                <div>
+                    <h3>Idli</h3>
+                    <p>Quantity: 1</p>
+                </div>
+                <strong>₹30</strong>
+            </div>
+
+            <div class="order-item">
+                <div>
+                    <h3>Chapati</h3>
+                    <p>Quantity: 1</p>
+                </div>
+                <strong>₹50</strong>
+            </div>
+
+            <div class="order-total">
+                <span>Total Amount</span>
+                <strong>₹200</strong>
+            </div>
+        </div>
+
+        <aside class="content-card order-info">
+            <h2>Order Details</h2>
+
+            <p><strong>Order ID:</strong> NS1001</p>
+            <p><strong>Order Type:</strong> Meal Order</p>
+            <p><strong>Payment:</strong> Not Processed</p>
+
+            <span class="status status-pending">Pending Confirmation</span>
+
+            <a href="dashboard.html" class="btn btn-primary full-width">
+                Confirm Order
+            </a>
+
+            <a href="meals.html" class="btn btn-outline full-width">
+                Continue Shopping
+            </a>
+        </aside>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 NutriServe</p>
+</footer>
+
+</body>
+</html>

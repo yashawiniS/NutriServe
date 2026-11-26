@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriServe | Provider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container navbar">
+        <a href="index.html" class="logo">Nutri<span>Serve</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="provider.html" class="active">Provider</a>
+            <a href="meals.html">Meals</a>
+            <a href="surplus.html">Surplus</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container page-section">
+
+    <div class="page-heading">
+        <div>
+            <span class="eyebrow">PROVIDER PANEL</span>
+            <h1>Food Provider Dashboard</h1>
+            <p>Manage meal availability and surplus food details.</p>
+        </div>
+    </div>
+
+    <section class="stats-grid">
+        <article class="stat-card">
+            <span>🍱</span>
+            <h2>03</h2>
+            <p>Listed Meals</p>
+        </article>
+
+        <article class="stat-card">
+            <span>📦</span>
+            <h2>25</h2>
+            <p>Meals Ordered</p>
+        </article>
+
+        <article class="stat-card">
+            <span>♻️</span>
+            <h2>20</h2>
+            <p>Surplus Portions</p>
+        </article>
+
+        <article class="stat-card">
+            <span>🤝</span>
+            <h2>02</h2>
+            <p>Distribution Requests</p>
+        </article>
+    </section>
+
+    <section class="section">
+        <div class="section-heading left-heading">
+            <h2>Manage Meal Availability</h2>
+            <p>Sample meal availability information.</p>
+        </div>
+
+        <div class="content-card table-card">
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Meal Name</th>
+                            <th>Price</th>
+                            <th>Available Quantity</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Vegetable Rice</td>
+                            <td>₹60</td>
+                            <td>50</td>
+                            <td><span class="status status-available">Available</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Idli</td>
+                            <td>₹30</td>
+                            <td>40</td>
+                            <td><span class="status status-available">Available</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Chapati</td>
+                            <td>₹50</td>
+                            <td>35</td>
+                            <td><span class="status status-available">Available</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content-card">
+            <h2>Report Surplus Food</h2>
+            <p>Enter the details of excess food for distribution.</p>
+
+            <form action="#" method="get" class="provider-form">
+
+                <div class="form-grid">
+                    <div>
+                        <label for="food">Food Name</label>
+                        <input type="text" id="food" placeholder="Enter food name" required>
+                    </div>
+
+                    <div>
+                        <label for="quantity">Quantity (Portions)</label>
+                        <input type="number" id="quantity" min="1"
+                               placeholder="Enter quantity" required>
+                    </div>
+
+                    <div>
+                        <label for="expiry">Expiry Date</label>
+                        <input type="date" id="expiry" required>
+                    </div>
+
+                    <div>
+                        <label for="location">Pickup Location</label>
+                        <input type="text" id="location"
+                               placeholder="Enter location" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Submit Surplus Details
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 NutriServe | Food Provider Panel</p>
+</footer>
+
+</body>
+</html>

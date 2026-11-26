@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - NutriServe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">NutriServe</a>
+
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="meals.html">Meals</a>
+                <a href="order.html">My Orders</a>
+                <a href="surplus.html">Surplus Food</a>
+                <a href="login.html" class="btn btn-outline">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-section">
+        <div class="container">
+
+            <!-- Dashboard Welcome -->
+            <div class="dashboard-welcome">
+                <div>
+                    <p class="dashboard-label">USER DASHBOARD</p>
+                    <h1>Welcome to NutriServe!</h1>
+                    <p>Manage your meals and explore available food.</p>
+                </div>
+
+                <a href="meals.html" class="btn btn-primary">
+                    Order Meals
+                </a>
+            </div>
+
+            <!-- Statistics -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-icon">🍱</div>
+                    <h2>05</h2>
+                    <p>Available Meals</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">📦</div>
+                    <h2>05</h2>
+                    <p>Total Orders</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">🥗</div>
+                    <h2>02</h2>
+                    <p>Surplus Listings</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">🌱</div>
+                    <h2>12 kg</h2>
+                    <p>Food Saved</p>
+                </div>
+
+            </div>
+
+            <!-- Quick Access -->
+            <div class="dashboard-section">
+                <div class="section-heading">
+                    <h2>Quick Access</h2>
+                    <p>Explore the main NutriServe services.</p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+                        <h3>🍽️ Order Meals</h3>
+                        <p>Explore and order your favourite meals.</p>
+                        <a href="meals.html" class="btn btn-primary">Explore Meals</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>📋 My Orders</h3>
+                        <p>View your meal orders and order details.</p>
+                        <a href="order.html" class="btn btn-primary">View Orders</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>♻️ Surplus Food</h3>
+                        <p>Discover available surplus food listings.</p>
+                        <a href="surplus.html" class="btn btn-primary">View Surplus</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Popular Meals -->
+            <div class="dashboard-section popular-meals">
+
+                <div class="section-heading">
+                    <h2>Available Meals</h2>
+                    <p>Choose from our freshly prepared food items.</p>
+                </div>
+
+                <div class="meal-grid">
+
+                    <!-- Vegetable Rice -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19"
+                             alt="Vegetable Rice">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Rice</span>
+                            <h3>Vegetable Rice</h3>
+                            <p>Healthy rice prepared with fresh vegetables.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹60</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Idli -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
+                             alt="Idli">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Idli</h3>
+                            <p>Soft and fluffy idlis for a light meal.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹30</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Chapati -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641"
+                             alt="Chapati">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Main Course</span>
+                            <h3>Chapati</h3>
+                            <p>Fresh chapatis served with curry.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹40</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Dosa -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
+                             alt="Dosa">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Dosa</h3>
+                            <p>Crispy dosa served with traditional sides.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹45</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Pongal -->
+                    <div class="meal-card">
+                        <img src="https://images.unsplash.com/photo-1630409346824-4f0e7b080087"
+                             alt="Pongal">
+
+                        <div class="card-body">
+                            <span class="meal-tag">Breakfast</span>
+                            <h3>Pongal</h3>
+                            <p>Traditional South Indian pongal.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="price">₹50</span>
+                            <a href="order.html" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 NutriServe. Reducing Food Waste, Serving Communities.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
